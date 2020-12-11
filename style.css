@@ -1,0 +1,146 @@
+/* main design - yet to be defined: here we will define 
+- font type
+- main color palette
+- main font sizes */
+
+body{
+
+	background-color: white;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px; 
+	text-align: center;
+	justify-content: flex-end;
+
+}
+
+h1{
+
+	font-size: 30px;
+	color: 153243;
+
+}
+
+h2{
+
+font-size: 20px;
+color: 153243;
+
+}
+
+p{
+
+color: 153243;
+font-weight: 16;
+
+
+}
+
+a{
+
+	text-decoration: none;
+	color: blue;
+}
+
+/* custom design by class */
+
+.container {
+	background-color: transparent;
+	width: 1000px;
+	margin: 40px auto;
+	text-align: center;	
+}
+
+@media (max-width: 1000px) {
+
+	.container{
+		width: 600px
+	}
+
+}
+
+@media (max-width: 600px) {
+
+	.container{
+		width: 400px
+	}
+
+@media (max-width: 4000px) {
+
+	.container{
+		width: 200px
+	}
+
+}
+
+}
+.card-presentation{
+	
+	overflow: none;
+}
+
+.grid-four-elements {
+	display: grid;
+	padding: 10px;
+	border-radius: 4px;
+	display: flex;
+	flex-wrap: wrap;
+	flex direction: row;
+	
+}
+
+.grid-four-elements > div {
+
+	display: flex;
+	flex-basis: calc(50% - 40px);  
+  	justify-content: center;
+}
+
+.grid2x2 > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.card-img {
+
+	background-color: white;
+	padding: 10px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 30px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.img-grid {
+
+	border-radius: 4px;
+	padding-left: 5px;
+}
+
+/* specific design by id */
+
+
+
+#photo-profile {
+
+	border-radius: 4px;
+}
+
+#map-caption  {
+
+	font-size: 10px;
+}
+
+#linkedin{
+
+	font-size: 30px;
+	color: #0966C2;
+}
+
+
+
+
